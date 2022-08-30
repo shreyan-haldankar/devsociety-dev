@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-color: #f8f8fb;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+#projects--wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 2em;
+  border: 1px solid #eaeaeb;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.project--card {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2em;
+  margin-top: 2em;
+  padding: 1em;
+  align-items: center;
+}
+
+.card--header {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.project--card p {
+  color: #737373;
+}
+
+.vote--option {
+  font-size: 24px;
+  color: #737373;
+  cursor: pointer;
+}
+
+.vote--option:hover {
+  color: #000;
+}
+
+#form-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 2em;
+  border: 1px solid #eaeaeb;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2em;
+}
+
+.cust {
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+
+/* Extras */
+:root {
+  --color-main: #5aa5b9;
+  --color-main-light: #e6faff;
+  --color-sub: #3f4156;
+  --color-sub-light: #51546e;
+  --color-sub-lighter: #ededfd;
+  --color-text: #737373;
+  --color-gray: #8b8b8b;
+  --color-light: #e5e7eb;
+  --color-light-gray: #767676;
+  --color-bg: #f8fafd;
+  --color-white: #fffefd;
+  --color-white-light: #f3f3f3;
+  --color-success: #359e64;
+  --color-success-bg: #def8e8;
+  --color-error: #fc4b0b;
+  --color-error-bg: #fff2ee;
+  --font-base: 'Poppins', arial, helvetica, 'Segoe UI', roboto, ubuntu, sans-serif;
+  --font-monospace: 'Fira Code', 'Courier New', courier, monospace;
+  --font-regular: 300;
+  --font-medium: 500;
+  --font-bold: 700;
+  --generic-shadow: 1px 1px 5px #00000010;
+  --generic-transition: all 0.3s ease-in-out;
+}
+
+
+.btn {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  background-color: var(--color-light);
+  font-weight: var(--font-medium);
+  color: var(--color-sub);
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 1.6rem;
+  outline-width: 0;
+  outline-color: transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:disabled,
+.btn--disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btn i {
+  pointer-events: none !important;
+}
+
+.btn--main {
+  background-color: var(--color-main);
+  color: var(--color-white);
+}
+
+.btn.btn--main--outline {
+  background-color: transparent;
+  color: var(--color-main);
+  border: 2px solid var(--color-main);
+}
+
+.btn--sub {
+  background-color: var(--color-sub);
+  color: var(--color-white);
+}
+
+.btn.btn--sub--outline {
+  background-color: transparent;
+  color: var(--color-sub);
+  border: 2px solid var(--color-sub);
+}
+
+.btn--sm {
+  font-size: 1.3rem;
+  padding: 0.5rem 1.2rem;
+}
+
+.btn--md {
+  font-size: 1.35rem;
+  padding: 0.8rem 2rem;
+}
+
+.btn--lg {
+  font-size: 1.8rem;
+  padding: 1.2rem 4.5rem;
+}
+
+.btn--main--link,
+.btn--sub--link {
+  padding: 0;
+  background: transparent;
+}
+
+.btn.btn--main--link {
+  color: var(--color-main);
+}
+
+.btn.btn--main--link i {
+  color: var(--color-main) !important;
+}
+
+.btn.btn--sub--link {
+  color: var(--color-sub);
+}
+
+.btn.btn--sub--link i {
+  color: var(--color-sub) !important;
+}
+
+.btn--main--outline:hover {
+  opacity: 1;
+  color: var(--color-white);
+  background: var(--color-main);
+}
+
+.btn--sub--outline:hover {
+  opacity: 1;
+  color: var(--color-white);
+  background: var(--color-sub);
+}
+
+.btn.button--spinner {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 2s linear infinite;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid var(--color-gray);
+  background-color: var(--color-light);
+  color: var(--color-gray);
+  cursor: unset;
+}
+
+.btn--sub {
+  background-color: var(--color-sub-light);
+}
