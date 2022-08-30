@@ -8,7 +8,7 @@
 The first thing to do is to clone the repository:
 
 ```sh
-$ git clone https://github.com/shreyan-haldankar/devsociety.git  
+$ git clone https://github.com/shreyan-haldankar/devsociety-dev.git  
 ```
 
 Install requirements using:
