@@ -1,7 +1,7 @@
 # DevSociety
 
 <br>
-<p><strong>Deployment Link: <a href="https://devsociety-dev.herokuapp.com">devsociety-dev.herokuapp.com/ </a></strong> </p>
+<!-- <p><strong>Deployment Link: <a href="https://devsociety-dev.herokuapp.com">devsociety-dev.herokuapp.com/ </a></strong> </p> -->
 
 <h4> This is a project created by a Developer, for the Developers. </h4> 
 <p> In DevSociety, Developers from around the world can join the community of developers to discover more people and explore their projects. </p>
